@@ -10,43 +10,124 @@
   <body>
     <div class="container">
       <header>
-        <a href="#">Cześć</a>
-        <a href="#">Projekty</a>
-        <a href="#">O mnie</a>
-        <a href="#">Kontakt</a>
+        <nav>
+          <a class="link-hello" href="#">Dzień dobry</a>
+          <a href="#">Projekty</a>
+          <a href="#">O mnie</a>
+          <a href="#">Kontakt</a>
+        </nav>
       </header>
-      <main>
-        <section class="welcome">
-          <h1>Cześć!</h1>
-          <p>Mam na imię Dawid, a to jest moja pierwsza strona internetowa.</p>
-          <div class="photo-placeholder"></div>
-        </section>
 
-        <section class="showcase">
-          <h2>Moje projekty</h2>
-          <p>
-            Poniżej umieszczam podgląd kilka z wielu wykonanych przezemnie
-            projektów
+      <main class="welcome">
+        <div class="welcome-text">
+          <p class="welcome-hello highlight">Dzień dobry! Mam na imię</p>
+          <h1>Dawid<span style="font-size: 50px">.</span></h1>
+          <h2>
+            <span class="highlight">Programuję</span>,
+            <span class="highlight">projektuję</span><span style="font-size: 35px">.</span>
+            <!-- <span style="font-size: 25%">oraz </span><span class="coffeman">kawosz</span> -->
+          </h2>
+          <h5>Robię też ciekawe rzeczy z ciekawymi ludźmi.</h5>
+          <p class="welcome-story lowlight">
+            Tworzenie
+            <span class="tooltip-usefull-code highlight">użytecznego</span> dla ludzkości
+            kodu to moje marzenie. Dopiero mając 20 lat się za to zabrałem... ale lepiej późno, niż wcale! 
+            <br>W czasie wolnym od
+            szkoły i pracy oglądałem kursy web-dev'u, a teraz,
+            kiedy już skończyłem szkołę, mam więcej czasu na <span class="programming-designing highlight">programowanie</span>.
           </p>
-          <figure class="showcase-item"></figure>
-          <figure class="showcase-item"></figure>
-          <figure class="showcase-item"></figure>
-        </section>
+<!--           <p class="welcome-story highlight">
+            Nie ukrywam, że tworzenie
+            <span class="tooltip-usefull-code">użytecznego</span> dla ludzkości
+            kodu to zawsze było moje marzenie. Zabrałem się za to późno, bo
+            dopiero mając 20 lat... ale lepiej późno, niż wcale! W wolnym od
+            szkoły i pracy czasie pozwalałem pożerałem kursy web-dev'u, a teraz,
+            kiedy już skończyłem szkołę, mam więcej czasu na naukę
+            programowania.
+          </p> -->
+
+        </div>
+        <div class="photo-placeholder"></div>
       </main>
+
       <section class="about">
         <h2>O mnie</h2>
         <div class="skills">
-          <h3>Moje umiejętności</h3>
+          <h4>Moje umiejętności</h4>
         </div>
         <div class="roadmap">
-          <h3>Moja droga rozwoju</h3>
+          <h4>Moja droga rozwoju</h4>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>SASS</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+          </ul>
         </div>
         <div class="hobbies">
-          <h3>Moje zainteresowania</h3>
+          <h4>Moje zainteresowania</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            reiciendis consequatur, mollitia soluta impedit vitae eligendi
+            beatae sit itaque voluptas est rerum nobis minima nostrum cum
+            tempore ullam maxime. Expedita fuga beatae ducimus est dolorem,
+            fugit quo dolorum, voluptates, iure eveniet eius! Similique, rerum?
+            Earum soluta quos quibusdam sunt illum.
+          </p>
         </div>
       </section>
-      <section class="contact-informations"></section>
+
+      <section class="showcase">
+        <h2>Moje projekty</h2>
+        <p>
+          Poniżej umieszczam podgląd kilka z wielu wykonanych przezemnie
+          projektów
+        </p>
+
+        <div class="showcase-items">
+          <figure class="showcase-item">
+            <h5>Ta strona</h5>
+            <p>Od czegoś trzeba zacząć</p>
+            <div class="photo-placeholder"></div>
+          </figure>
+
+          <figure class="showcase-item">
+            <h5>Ta strona</h5>
+            <p>Od czegoś trzeba zacząć</p>
+            <div class="photo-placeholder"></div>
+          </figure>
+
+          <figure class="showcase-item">
+            <h5>Ta strona</h5>
+            <p>Od czegoś trzeba zacząć</p>
+            <div class="photo-placeholder"></div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-informations">
+        <div class="mail"></div>
+        <div class="socialmedia-links">
+          <ul>
+            <li>
+              <a class="socialmedia-link" href="https://github.com/Michota"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a class="socialmedia-link" href="#">LinkedIn</a>
+            </li>
+            <li>
+
+              <a class="socialmedia-link" href="#">E-mail</a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <footer>&copy; Dawid Michota 2023</footer>
     </div>
+    <div class="end-of-page"></div>
   </body>
 </html>
