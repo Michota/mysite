@@ -90,7 +90,7 @@ footer {
 
 .end-of-page {
   width: 100%;
-  border-bottom: solid 16px #646890;
+  border-bottom: solid 16px #8e678e;
 }
 /* // HEADER // */
 
@@ -154,7 +154,7 @@ main h2 {
   /* Align to <p> */
   margin-top: -40px;
   margin-left: -6px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 3.8rem;
 }
 
@@ -183,12 +183,60 @@ main p {
 }
 
 .welcome-story {
-  max-width: 80ch;
+  max-width: 75ch;
 }
 
 /* .coffeman {
   font-size: 25%;
 } */
+
+/* // ABOUT // */
+
+/* Skills - crrently disabled*/
+
+/* .skills h3 {
+  margin-bottom: 32px;
+}
+
+.skills-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+}
+
+.skill-type {
+  background: #8e678e;
+}
+
+.skill-type :is(p, h4) {
+  text-align: center;
+  margin: 0 20px;
+} */
+
+/* Roadmap */
+
+.roadmap ul {
+  position: relative;
+  margin: 0 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.roadmap ul::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  background-color: #8e678e;
+  z-index: -1;
+  align-self: center;
+}
+
+.roadmap li {
+  float: left;
+  list-style-type: none;
+}
 
 /* // SHOWCASE // */
 
@@ -196,8 +244,6 @@ main p {
   display: flex;
   justify-content: space-evenly;
 }
-
-/* // ABOUT // */
 
 /* // CONTACT // */
 
